@@ -29,6 +29,8 @@
 		993428172B09244F003FDDE2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428162B09244F003FDDE2 /* Size.swift */; };
 		9934281A2B092749003FDDE2 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428192B092749003FDDE2 /* MockData.swift */; };
 		9934281D2B0933F6003FDDE2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934281C2B0933F6003FDDE2 /* LoadingView.swift */; };
+		993428202B093957003FDDE2 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934281F2B093957003FDDE2 /* Alerts.swift */; };
+		993428222B093B3A003FDDE2 /* ServiceMocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428212B093B3A003FDDE2 /* ServiceMocked.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		993428162B09244F003FDDE2 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		993428192B092749003FDDE2 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		9934281C2B0933F6003FDDE2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9934281F2B093957003FDDE2 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		993428212B093B3A003FDDE2 /* ServiceMocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMocked.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +129,10 @@
 		993427C02B08F9C1003FDDE2 /* AleloProducts */ = {
 			isa = PBXGroup;
 			children = (
-				9934280C2B09070D003FDDE2 /* Repository */,
 				993427EF2B08FA9C003FDDE2 /* Models */,
 				993427F02B08FAA2003FDDE2 /* Modules */,
 				993427EC2B08FA49003FDDE2 /* App */,
+				9934280C2B09070D003FDDE2 /* Repository */,
 				993427F82B08FBAB003FDDE2 /* Components */,
 				993427EE2B08FA81003FDDE2 /* Utils */,
 				993427ED2B08FA61003FDDE2 /* Resources */,
@@ -182,6 +186,7 @@
 		993427EE2B08FA81003FDDE2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9934281E2B093941003FDDE2 /* Alerts */,
 				993428182B092740003FDDE2 /* Mock */,
 				993427F62B08FB02003FDDE2 /* Extensions */,
 				993427F52B08FAF6003FDDE2 /* Network */,
@@ -247,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				993428042B08FFEA003FDDE2 /* Service.swift */,
+				993428212B093B3A003FDDE2 /* ServiceMocked.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -316,6 +322,14 @@
 				9934281C2B0933F6003FDDE2 /* LoadingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9934281E2B093941003FDDE2 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				9934281F2B093957003FDDE2 /* Alerts.swift */,
+			);
+			path = Alerts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,12 +472,14 @@
 				993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */,
 				993428072B090296003FDDE2 /* Dictionary.swift in Sources */,
 				993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */,
+				993428222B093B3A003FDDE2 /* ServiceMocked.swift in Sources */,
 				993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */,
 				993428132B092423003FDDE2 /* ProductsRepository.swift in Sources */,
 				993428092B0904DA003FDDE2 /* URLResponse.swift in Sources */,
 				993427FA2B08FC42003FDDE2 /* ProductsListView.swift in Sources */,
 				9934281A2B092749003FDDE2 /* MockData.swift in Sources */,
 				9934280E2B09072E003FDDE2 /* Repository.swift in Sources */,
+				993428202B093957003FDDE2 /* Alerts.swift in Sources */,
 				993428102B091E6F003FDDE2 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

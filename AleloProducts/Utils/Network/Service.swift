@@ -29,26 +29,9 @@ protocol ServiceProtocol {
                               responseType: T.Type)  async throws -> T
 }
 
-final class ServiceMocked: ServiceProtocol {
-    func request<T:Decodable>(method: RequestType,
-                              endpoint: String,
-                              parameters: Dictionary<String, Any>,
-                              responseType: T.Type)  async throws -> T {
-        
-        switch responseType {
-        case _ as ProductsResponse.Type:
-            let response = ProductsResponse(products: MockData.productItems)
-            return response as! T
-            break
-        default:
-            throw APIError.invalidURL
-        }
-    }
-}
-
 final class Service: ServiceProtocol {
     
-    private let baseURL = "http://localhost:2020/"
+    private let baseURL = "http://localssshost:2020/"
     
     func request<T:Decodable>(method: RequestType,
                               endpoint: String,
@@ -56,7 +39,7 @@ final class Service: ServiceProtocol {
                               responseType: T.Type)  async throws -> T {
         
         var url = self.baseURL + endpoint
-        var request = NSMutableURLRequest()
+        let request = NSMutableURLRequest()
         
         switch method {
             

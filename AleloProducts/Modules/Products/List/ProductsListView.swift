@@ -30,6 +30,11 @@ struct ProductsListView: View {
                 LoadingView()
             }
         }
+        .alert(item: $viewModel.alertInfo) { alertInfo in
+            Alert(title: alertInfo.title,
+                  message: alertInfo.message,
+                  dismissButton: alertInfo.dismissButton)
+        }
     }
         
 }
