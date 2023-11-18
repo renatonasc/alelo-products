@@ -35,7 +35,11 @@ final class ServiceMocked: ServiceProtocol {
                               parameters: Dictionary<String, Any>,
                               responseType: T.Type)  async throws -> T {
         
-        switch T.self {
+        switch responseType {
+        case _ as ProductsResponse.Type:
+            let response = ProductsResponse(products: MockData.productItems)
+            return response as! T
+            break
         default:
             throw APIError.invalidURL
         }

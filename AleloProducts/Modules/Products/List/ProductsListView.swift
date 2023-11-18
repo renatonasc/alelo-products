@@ -8,18 +8,26 @@
 import SwiftUI
 
 struct ProductsListView: View {
+    
+    @StateObject var viewModel = ProductDetailViewModel()
+    
     var body: some View {
-        NavigationView {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        }
-        .task {
-            Task {
-                do {
-                    let products = try await Repository.Products.listAll()
-                    print(products)
-                } catch {
-                    print (error)
+        ZStack {
+            NavigationView {
+                List(viewModel.products) { product in
+                    Text(product.name ?? "")
+                        .font(.title2)
+                        .fontWeight(.medium)
                 }
+                .navigationTitle("Products")
+                .listStyle(.plain)
+            }
+            .task {
+                viewModel.getProducts()
+            }
+            
+            if viewModel.isLoading {
+                LoadingView()
             }
         }
     }
