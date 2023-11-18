@@ -31,7 +31,7 @@ protocol ServiceProtocol {
 
 final class Service: ServiceProtocol {
     
-    private let baseURL = "http://localssshost:2020/"
+    private let baseURL = "http://localhost:2020/"
     
     func request<T:Decodable>(method: RequestType,
                               endpoint: String,

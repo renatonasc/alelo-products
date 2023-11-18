@@ -15,9 +15,7 @@ struct ProductsListView: View {
         ZStack {
             NavigationView {
                 List(viewModel.products) { product in
-                    Text(product.name ?? "")
-                        .font(.title2)
-                        .fontWeight(.medium)
+                    ProductListViewCell(product: product)
                 }
                 .navigationTitle("Products")
                 .listStyle(.plain)

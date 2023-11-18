@@ -35,6 +35,7 @@ import SwiftUI
                     }
                 } else {
                     alertInfo = AlertInfoObject.genericError
+//                    alertInfo = AlertInfo(title: Text("Error"), message: Text(error.localizedDescription), dismissButton: .default(Text("Ok")))
                 }
                 isLoading = false
             }
