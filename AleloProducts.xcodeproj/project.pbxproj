@@ -19,6 +19,11 @@
 		993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */; };
 		993428012B08FCD4003FDDE2 /* CartListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428002B08FCD4003FDDE2 /* CartListView.swift */; };
 		993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428022B08FCE5003FDDE2 /* ProfileView.swift */; };
+		993428052B08FFEA003FDDE2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428042B08FFEA003FDDE2 /* Service.swift */; };
+		993428072B090296003FDDE2 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428062B090296003FDDE2 /* Dictionary.swift */; };
+		993428092B0904DA003FDDE2 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428082B0904DA003FDDE2 /* URLResponse.swift */; };
+		9934280B2B09051D003FDDE2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934280A2B09051D003FDDE2 /* Data.swift */; };
+		9934280E2B09072E003FDDE2 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934280D2B09072E003FDDE2 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
 		993428002B08FCD4003FDDE2 /* CartListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartListView.swift; sourceTree = "<group>"; };
 		993428022B08FCE5003FDDE2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		993428042B08FFEA003FDDE2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		993428062B090296003FDDE2 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		993428082B0904DA003FDDE2 /* URLResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
+		9934280A2B09051D003FDDE2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9934280D2B09072E003FDDE2 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,7 @@
 		993427C02B08F9C1003FDDE2 /* AleloProducts */ = {
 			isa = PBXGroup;
 			children = (
+				9934280C2B09070D003FDDE2 /* Repository */,
 				993427EF2B08FA9C003FDDE2 /* Models */,
 				993427F02B08FAA2003FDDE2 /* Modules */,
 				993427EC2B08FA49003FDDE2 /* App */,
@@ -222,6 +233,7 @@
 		993427F52B08FAF6003FDDE2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				993428042B08FFEA003FDDE2 /* Service.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -229,6 +241,9 @@
 		993427F62B08FB02003FDDE2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				993428062B090296003FDDE2 /* Dictionary.swift */,
+				993428082B0904DA003FDDE2 /* URLResponse.swift */,
+				9934280A2B09051D003FDDE2 /* Data.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -254,6 +269,14 @@
 				993428002B08FCD4003FDDE2 /* CartListView.swift */,
 			);
 			path = CartListView;
+			sourceTree = "<group>";
+		};
+		9934280C2B09070D003FDDE2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9934280D2B09072E003FDDE2 /* Repository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,12 +410,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				993427C42B08F9C1003FDDE2 /* MainContentView.swift in Sources */,
+				993428052B08FFEA003FDDE2 /* Service.swift in Sources */,
 				993427FC2B08FC62003FDDE2 /* ProductDetailView.swift in Sources */,
 				993428012B08FCD4003FDDE2 /* CartListView.swift in Sources */,
+				9934280B2B09051D003FDDE2 /* Data.swift in Sources */,
 				993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */,
+				993428072B090296003FDDE2 /* Dictionary.swift in Sources */,
 				993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */,
 				993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */,
+				993428092B0904DA003FDDE2 /* URLResponse.swift in Sources */,
 				993427FA2B08FC42003FDDE2 /* ProductsListView.swift in Sources */,
+				9934280E2B09072E003FDDE2 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
