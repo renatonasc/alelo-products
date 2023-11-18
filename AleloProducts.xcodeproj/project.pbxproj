@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */; };
-		993427C42B08F9C1003FDDE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427C32B08F9C1003FDDE2 /* ContentView.swift */; };
+		993427C42B08F9C1003FDDE2 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427C32B08F9C1003FDDE2 /* MainContentView.swift */; };
 		993427C62B08F9C2003FDDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993427C52B08F9C2003FDDE2 /* Assets.xcassets */; };
 		993427CA2B08F9C2003FDDE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993427C92B08F9C2003FDDE2 /* Preview Assets.xcassets */; };
 		993427D42B08F9C2003FDDE2 /* AleloProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427D32B08F9C2003FDDE2 /* AleloProductsTests.swift */; };
 		993427DE2B08F9C2003FDDE2 /* AleloProductsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427DD2B08F9C2003FDDE2 /* AleloProductsUITests.swift */; };
 		993427E02B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */; };
+		993427FA2B08FC42003FDDE2 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427F92B08FC42003FDDE2 /* ProductsListView.swift */; };
+		993427FC2B08FC62003FDDE2 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427FB2B08FC62003FDDE2 /* ProductDetailView.swift */; };
+		993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */; };
+		993428012B08FCD4003FDDE2 /* CartListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428002B08FCD4003FDDE2 /* CartListView.swift */; };
+		993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428022B08FCE5003FDDE2 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		993427BE2B08F9C1003FDDE2 /* AleloProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AleloProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsApp.swift; sourceTree = "<group>"; };
-		993427C32B08F9C1003FDDE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		993427C32B08F9C1003FDDE2 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		993427C52B08F9C2003FDDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993427C72B08F9C2003FDDE2 /* AleloProducts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AleloProducts.entitlements; sourceTree = "<group>"; };
 		993427C92B08F9C2003FDDE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		993427D92B08F9C2003FDDE2 /* AleloProductsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AleloProductsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993427DD2B08F9C2003FDDE2 /* AleloProductsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsUITests.swift; sourceTree = "<group>"; };
 		993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		993427F92B08FC42003FDDE2 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		993427FB2B08FC62003FDDE2 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		993428002B08FCD4003FDDE2 /* CartListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartListView.swift; sourceTree = "<group>"; };
+		993428022B08FCE5003FDDE2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +105,12 @@
 		993427C02B08F9C1003FDDE2 /* AleloProducts */ = {
 			isa = PBXGroup;
 			children = (
-				993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */,
-				993427C32B08F9C1003FDDE2 /* ContentView.swift */,
-				993427C52B08F9C2003FDDE2 /* Assets.xcassets */,
-				993427C72B08F9C2003FDDE2 /* AleloProducts.entitlements */,
-				993427C82B08F9C2003FDDE2 /* Preview Content */,
+				993427EF2B08FA9C003FDDE2 /* Models */,
+				993427F02B08FAA2003FDDE2 /* Modules */,
+				993427EC2B08FA49003FDDE2 /* App */,
+				993427F82B08FBAB003FDDE2 /* Components */,
+				993427EE2B08FA81003FDDE2 /* Utils */,
+				993427ED2B08FA61003FDDE2 /* Resources */,
 			);
 			path = AleloProducts;
 			sourceTree = "<group>";
@@ -127,6 +138,122 @@
 				993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */,
 			);
 			path = AleloProductsUITests;
+			sourceTree = "<group>";
+		};
+		993427EC2B08FA49003FDDE2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */,
+				993427C72B08F9C2003FDDE2 /* AleloProducts.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		993427ED2B08FA61003FDDE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				993427C82B08F9C2003FDDE2 /* Preview Content */,
+				993427C52B08F9C2003FDDE2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		993427EE2B08FA81003FDDE2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				993427F62B08FB02003FDDE2 /* Extensions */,
+				993427F52B08FAF6003FDDE2 /* Network */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		993427EF2B08FA9C003FDDE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		993427F02B08FAA2003FDDE2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				993427C32B08F9C1003FDDE2 /* MainContentView.swift */,
+				993427F12B08FAB5003FDDE2 /* Products */,
+				993427F42B08FADA003FDDE2 /* Cart */,
+				993427F72B08FB89003FDDE2 /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		993427F12B08FAB5003FDDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993427F32B08FAD0003FDDE2 /* Detail */,
+				993427F22B08FACA003FDDE2 /* List */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		993427F22B08FACA003FDDE2 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				993427F92B08FC42003FDDE2 /* ProductsListView.swift */,
+				993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		993427F32B08FAD0003FDDE2 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				993427FB2B08FC62003FDDE2 /* ProductDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		993427F42B08FADA003FDDE2 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				993427FF2B08FCB8003FDDE2 /* CartListView */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		993427F52B08FAF6003FDDE2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		993427F62B08FB02003FDDE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		993427F72B08FB89003FDDE2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				993428022B08FCE5003FDDE2 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		993427F82B08FBAB003FDDE2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		993427FF2B08FCB8003FDDE2 /* CartListView */ = {
+			isa = PBXGroup;
+			children = (
+				993428002B08FCD4003FDDE2 /* CartListView.swift */,
+			);
+			path = CartListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +386,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993427C42B08F9C1003FDDE2 /* ContentView.swift in Sources */,
+				993427C42B08F9C1003FDDE2 /* MainContentView.swift in Sources */,
+				993427FC2B08FC62003FDDE2 /* ProductDetailView.swift in Sources */,
+				993428012B08FCD4003FDDE2 /* CartListView.swift in Sources */,
 				993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */,
+				993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */,
+				993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */,
+				993427FA2B08FC42003FDDE2 /* ProductsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +548,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AleloProducts/AleloProducts.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AleloProducts/App/AleloProducts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AleloProducts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AleloProducts/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = M22N9JA4YW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -454,10 +586,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AleloProducts/AleloProducts.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AleloProducts/App/AleloProducts.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AleloProducts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AleloProducts/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = M22N9JA4YW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
