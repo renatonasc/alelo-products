@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */; };
+		993427C42B08F9C1003FDDE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427C32B08F9C1003FDDE2 /* ContentView.swift */; };
+		993427C62B08F9C2003FDDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993427C52B08F9C2003FDDE2 /* Assets.xcassets */; };
+		993427CA2B08F9C2003FDDE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993427C92B08F9C2003FDDE2 /* Preview Assets.xcassets */; };
+		993427D42B08F9C2003FDDE2 /* AleloProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427D32B08F9C2003FDDE2 /* AleloProductsTests.swift */; };
+		993427DE2B08F9C2003FDDE2 /* AleloProductsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427DD2B08F9C2003FDDE2 /* AleloProductsUITests.swift */; };
+		993427E02B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		993427D02B08F9C2003FDDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993427B62B08F9C1003FDDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993427BD2B08F9C1003FDDE2;
+			remoteInfo = AleloProducts;
+		};
+		993427DA2B08F9C2003FDDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993427B62B08F9C1003FDDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993427BD2B08F9C1003FDDE2;
+			remoteInfo = AleloProducts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		993427BE2B08F9C1003FDDE2 /* AleloProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AleloProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsApp.swift; sourceTree = "<group>"; };
+		993427C32B08F9C1003FDDE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		993427C52B08F9C2003FDDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993427C72B08F9C2003FDDE2 /* AleloProducts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AleloProducts.entitlements; sourceTree = "<group>"; };
+		993427C92B08F9C2003FDDE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		993427CF2B08F9C2003FDDE2 /* AleloProductsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AleloProductsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		993427D32B08F9C2003FDDE2 /* AleloProductsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsTests.swift; sourceTree = "<group>"; };
+		993427D92B08F9C2003FDDE2 /* AleloProductsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AleloProductsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		993427DD2B08F9C2003FDDE2 /* AleloProductsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsUITests.swift; sourceTree = "<group>"; };
+		993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993427BB2B08F9C1003FDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993427CC2B08F9C2003FDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993427D62B08F9C2003FDDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993427B52B08F9C1003FDDE2 = {
+			isa = PBXGroup;
+			children = (
+				993427C02B08F9C1003FDDE2 /* AleloProducts */,
+				993427D22B08F9C2003FDDE2 /* AleloProductsTests */,
+				993427DC2B08F9C2003FDDE2 /* AleloProductsUITests */,
+				993427BF2B08F9C1003FDDE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		993427BF2B08F9C1003FDDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993427BE2B08F9C1003FDDE2 /* AleloProducts.app */,
+				993427CF2B08F9C2003FDDE2 /* AleloProductsTests.xctest */,
+				993427D92B08F9C2003FDDE2 /* AleloProductsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993427C02B08F9C1003FDDE2 /* AleloProducts */ = {
+			isa = PBXGroup;
+			children = (
+				993427C12B08F9C1003FDDE2 /* AleloProductsApp.swift */,
+				993427C32B08F9C1003FDDE2 /* ContentView.swift */,
+				993427C52B08F9C2003FDDE2 /* Assets.xcassets */,
+				993427C72B08F9C2003FDDE2 /* AleloProducts.entitlements */,
+				993427C82B08F9C2003FDDE2 /* Preview Content */,
+			);
+			path = AleloProducts;
+			sourceTree = "<group>";
+		};
+		993427C82B08F9C2003FDDE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				993427C92B08F9C2003FDDE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		993427D22B08F9C2003FDDE2 /* AleloProductsTests */ = {
+			isa = PBXGroup;
+			children = (
+				993427D32B08F9C2003FDDE2 /* AleloProductsTests.swift */,
+			);
+			path = AleloProductsTests;
+			sourceTree = "<group>";
+		};
+		993427DC2B08F9C2003FDDE2 /* AleloProductsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				993427DD2B08F9C2003FDDE2 /* AleloProductsUITests.swift */,
+				993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */,
+			);
+			path = AleloProductsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993427BD2B08F9C1003FDDE2 /* AleloProducts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993427E32B08F9C2003FDDE2 /* Build configuration list for PBXNativeTarget "AleloProducts" */;
+			buildPhases = (
+				993427BA2B08F9C1003FDDE2 /* Sources */,
+				993427BB2B08F9C1003FDDE2 /* Frameworks */,
+				993427BC2B08F9C1003FDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AleloProducts;
+			productName = AleloProducts;
+			productReference = 993427BE2B08F9C1003FDDE2 /* AleloProducts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		993427CE2B08F9C2003FDDE2 /* AleloProductsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993427E62B08F9C2003FDDE2 /* Build configuration list for PBXNativeTarget "AleloProductsTests" */;
+			buildPhases = (
+				993427CB2B08F9C2003FDDE2 /* Sources */,
+				993427CC2B08F9C2003FDDE2 /* Frameworks */,
+				993427CD2B08F9C2003FDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993427D12B08F9C2003FDDE2 /* PBXTargetDependency */,
+			);
+			name = AleloProductsTests;
+			productName = AleloProductsTests;
+			productReference = 993427CF2B08F9C2003FDDE2 /* AleloProductsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		993427D82B08F9C2003FDDE2 /* AleloProductsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993427E92B08F9C2003FDDE2 /* Build configuration list for PBXNativeTarget "AleloProductsUITests" */;
+			buildPhases = (
+				993427D52B08F9C2003FDDE2 /* Sources */,
+				993427D62B08F9C2003FDDE2 /* Frameworks */,
+				993427D72B08F9C2003FDDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993427DB2B08F9C2003FDDE2 /* PBXTargetDependency */,
+			);
+			name = AleloProductsUITests;
+			productName = AleloProductsUITests;
+			productReference = 993427D92B08F9C2003FDDE2 /* AleloProductsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993427B62B08F9C1003FDDE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					993427BD2B08F9C1003FDDE2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					993427CE2B08F9C2003FDDE2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 993427BD2B08F9C1003FDDE2;
+					};
+					993427D82B08F9C2003FDDE2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 993427BD2B08F9C1003FDDE2;
+					};
+				};
+			};
+			buildConfigurationList = 993427B92B08F9C1003FDDE2 /* Build configuration list for PBXProject "AleloProducts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993427B52B08F9C1003FDDE2;
+			productRefGroup = 993427BF2B08F9C1003FDDE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993427BD2B08F9C1003FDDE2 /* AleloProducts */,
+				993427CE2B08F9C2003FDDE2 /* AleloProductsTests */,
+				993427D82B08F9C2003FDDE2 /* AleloProductsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993427BC2B08F9C1003FDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993427CA2B08F9C2003FDDE2 /* Preview Assets.xcassets in Resources */,
+				993427C62B08F9C2003FDDE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993427CD2B08F9C2003FDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993427D72B08F9C2003FDDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993427BA2B08F9C1003FDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993427C42B08F9C1003FDDE2 /* ContentView.swift in Sources */,
+				993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993427CB2B08F9C2003FDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993427D42B08F9C2003FDDE2 /* AleloProductsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993427D52B08F9C2003FDDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993427E02B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift in Sources */,
+				993427DE2B08F9C2003FDDE2 /* AleloProductsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		993427D12B08F9C2003FDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993427BD2B08F9C1003FDDE2 /* AleloProducts */;
+			targetProxy = 993427D02B08F9C2003FDDE2 /* PBXContainerItemProxy */;
+		};
+		993427DB2B08F9C2003FDDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993427BD2B08F9C1003FDDE2 /* AleloProducts */;
+			targetProxy = 993427DA2B08F9C2003FDDE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		993427E12B08F9C2003FDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993427E22B08F9C2003FDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		993427E42B08F9C2003FDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AleloProducts/AleloProducts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AleloProducts/Preview Content\"";
+				DEVELOPMENT_TEAM = M22N9JA4YW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatonasc.AleloProducts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993427E52B08F9C2003FDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AleloProducts/AleloProducts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AleloProducts/Preview Content\"";
+				DEVELOPMENT_TEAM = M22N9JA4YW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatonasc.AleloProducts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		993427E72B08F9C2003FDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22N9JA4YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatonasc.AleloProductsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AleloProducts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AleloProducts";
+			};
+			name = Debug;
+		};
+		993427E82B08F9C2003FDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22N9JA4YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatonasc.AleloProductsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AleloProducts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AleloProducts";
+			};
+			name = Release;
+		};
+		993427EA2B08F9C2003FDDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22N9JA4YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatonasc.AleloProductsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AleloProducts;
+			};
+			name = Debug;
+		};
+		993427EB2B08F9C2003FDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22N9JA4YW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatonasc.AleloProductsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AleloProducts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993427B92B08F9C1003FDDE2 /* Build configuration list for PBXProject "AleloProducts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993427E12B08F9C2003FDDE2 /* Debug */,
+				993427E22B08F9C2003FDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993427E32B08F9C2003FDDE2 /* Build configuration list for PBXNativeTarget "AleloProducts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993427E42B08F9C2003FDDE2 /* Debug */,
+				993427E52B08F9C2003FDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993427E62B08F9C2003FDDE2 /* Build configuration list for PBXNativeTarget "AleloProductsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993427E72B08F9C2003FDDE2 /* Debug */,
+				993427E82B08F9C2003FDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993427E92B08F9C2003FDDE2 /* Build configuration list for PBXNativeTarget "AleloProductsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993427EA2B08F9C2003FDDE2 /* Debug */,
+				993427EB2B08F9C2003FDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993427B62B08F9C1003FDDE2 /* Project object */;
+}
