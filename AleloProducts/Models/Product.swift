@@ -35,4 +35,17 @@ struct Product: Codable, Identifiable {
         case discountPercentage = "discount_percentage"
         case installments, image, sizes
     }
+    
+    var salePrice: Double {
+        
+        let price = self.actualPrice?.replacingOccurrences(of: "R$", with: "")
+                                    .replacingOccurrences(of: " ", with: "") ?? ""
+        
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
+        formatter.locale = Locale(identifier: "pt_BR")
+        let number = formatter.number(from: price )
+ 
+        return number?.doubleValue ?? 0
+    }
 }

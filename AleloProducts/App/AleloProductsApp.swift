@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct AleloProductsApp: App {
+    
+    var cart = Cart()
+    
     var body: some Scene {
         WindowGroup {
-            MainContentView()
+            MainContentView().environmentObject(cart)
         }
     }
 }

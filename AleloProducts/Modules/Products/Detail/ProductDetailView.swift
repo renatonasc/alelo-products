@@ -14,6 +14,8 @@ struct ProductDetailView: View {
     @Binding var isShowingDetail: Bool
     @State private var selectedSize = ""
     
+    @EnvironmentObject var cart: Cart
+    
     var body: some View {
         VStack {
             
@@ -72,7 +74,7 @@ struct ProductDetailView: View {
             Spacer()
             
             Button {
-                // ADD TO CART
+                cart.add(CartItem(product: product, size: selectedSize, qtd: 1))
                 isShowingDetail = false
             } label: {
                 Text("Add to Cart")

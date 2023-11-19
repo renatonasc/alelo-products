@@ -32,6 +32,8 @@
 		993428202B093957003FDDE2 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9934281F2B093957003FDDE2 /* Alerts.swift */; };
 		993428222B093B3A003FDDE2 /* ServiceMocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428212B093B3A003FDDE2 /* ServiceMocked.swift */; };
 		993428252B09435C003FDDE2 /* ProductListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428242B09435C003FDDE2 /* ProductListViewCell.swift */; };
+		993428272B0A5656003FDDE2 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428262B0A5656003FDDE2 /* Cart.swift */; };
+		993428292B0A74DB003FDDE2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428282B0A74DB003FDDE2 /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		9934281F2B093957003FDDE2 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		993428212B093B3A003FDDE2 /* ServiceMocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMocked.swift; sourceTree = "<group>"; };
 		993428242B09435C003FDDE2 /* ProductListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewCell.swift; sourceTree = "<group>"; };
+		993428262B0A5656003FDDE2 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		993428282B0A74DB003FDDE2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,7 @@
 			children = (
 				9934280F2B091E6F003FDDE2 /* Product.swift */,
 				993428162B09244F003FDDE2 /* Size.swift */,
+				993428262B0A5656003FDDE2 /* Cart.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				993428062B090296003FDDE2 /* Dictionary.swift */,
 				993428082B0904DA003FDDE2 /* URLResponse.swift */,
 				9934280A2B09051D003FDDE2 /* Data.swift */,
+				993428282B0A74DB003FDDE2 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -483,6 +489,7 @@
 				993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */,
 				993428252B09435C003FDDE2 /* ProductListViewCell.swift in Sources */,
 				993428072B090296003FDDE2 /* Dictionary.swift in Sources */,
+				993428272B0A5656003FDDE2 /* Cart.swift in Sources */,
 				993427FE2B08FC71003FDDE2 /* ProductListViewModel.swift in Sources */,
 				993428222B093B3A003FDDE2 /* ServiceMocked.swift in Sources */,
 				993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */,
@@ -492,6 +499,7 @@
 				9934281A2B092749003FDDE2 /* MockData.swift in Sources */,
 				9934280E2B09072E003FDDE2 /* Repository.swift in Sources */,
 				993428202B093957003FDDE2 /* Alerts.swift in Sources */,
+				993428292B0A74DB003FDDE2 /* Double.swift in Sources */,
 				993428102B091E6F003FDDE2 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
