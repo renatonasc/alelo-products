@@ -16,7 +16,7 @@
 		993427E02B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */; };
 		993427FA2B08FC42003FDDE2 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427F92B08FC42003FDDE2 /* ProductsListView.swift */; };
 		993427FC2B08FC62003FDDE2 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427FB2B08FC62003FDDE2 /* ProductDetailView.swift */; };
-		993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */; };
+		993427FE2B08FC71003FDDE2 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993427FD2B08FC71003FDDE2 /* ProductListViewModel.swift */; };
 		993428012B08FCD4003FDDE2 /* CartListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428002B08FCD4003FDDE2 /* CartListView.swift */; };
 		993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428022B08FCE5003FDDE2 /* ProfileView.swift */; };
 		993428052B08FFEA003FDDE2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993428042B08FFEA003FDDE2 /* Service.swift */; };
@@ -65,7 +65,7 @@
 		993427DF2B08F9C2003FDDE2 /* AleloProductsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleloProductsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		993427F92B08FC42003FDDE2 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
 		993427FB2B08FC62003FDDE2 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
-		993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		993427FD2B08FC71003FDDE2 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 		993428002B08FCD4003FDDE2 /* CartListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartListView.swift; sourceTree = "<group>"; };
 		993428022B08FCE5003FDDE2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		993428042B08FFEA003FDDE2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 			children = (
 				993428232B094339003FDDE2 /* Cell */,
 				993427F92B08FC42003FDDE2 /* ProductsListView.swift */,
-				993427FD2B08FC71003FDDE2 /* ProductDetailViewModel.swift */,
+				993427FD2B08FC71003FDDE2 /* ProductListViewModel.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -483,7 +483,7 @@
 				993427C22B08F9C1003FDDE2 /* AleloProductsApp.swift in Sources */,
 				993428252B09435C003FDDE2 /* ProductListViewCell.swift in Sources */,
 				993428072B090296003FDDE2 /* Dictionary.swift in Sources */,
-				993427FE2B08FC71003FDDE2 /* ProductDetailViewModel.swift in Sources */,
+				993427FE2B08FC71003FDDE2 /* ProductListViewModel.swift in Sources */,
 				993428222B093B3A003FDDE2 /* ServiceMocked.swift in Sources */,
 				993428032B08FCE5003FDDE2 /* ProfileView.swift in Sources */,
 				993428132B092423003FDDE2 /* ProductsRepository.swift in Sources */,

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProductsListView: View {
     
-    @StateObject var viewModel = ProductDetailViewModel()
+    @StateObject var viewModel = ProductListViewModel()
     
     var body: some View {
         ZStack {

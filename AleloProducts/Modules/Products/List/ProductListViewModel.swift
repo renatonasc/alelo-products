@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@MainActor final class ProductDetailViewModel: ObservableObject {
+@MainActor final class ProductListViewModel: ObservableObject {
     
     @Published var products: [Product] = []
     @Published var isLoading = false
