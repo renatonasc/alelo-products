@@ -57,8 +57,6 @@ struct ProductListViewCell: View {
     }
 }
 
-struct ProductListViewCell_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductListViewCell(product: MockData.productThree)
-    }
+#Preview {
+    ProductListViewCell(product: MockData.productThree)
 }

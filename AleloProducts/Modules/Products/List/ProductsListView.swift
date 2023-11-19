@@ -16,12 +16,23 @@ struct ProductsListView: View {
             NavigationView {
                 List(viewModel.products) { product in
                     ProductListViewCell(product: product)
+                        .onTapGesture {
+                            viewModel.selectedProduct = product
+                            viewModel.isShowingDetail = true
+                        }
                 }
                 .navigationTitle("Products")
                 .listStyle(.plain)
+                .disabled(viewModel.isShowingDetail)
             }
             .task {
                 viewModel.getProducts()
+            }
+            .blur(radius: viewModel.isShowingDetail ? 20 : 0)
+            
+            if viewModel.isShowingDetail {
+                ProductDetailView(product: viewModel.selectedProduct!,
+                                  isShowingDetail: $viewModel.isShowingDetail)
             }
             
             if viewModel.isLoading {

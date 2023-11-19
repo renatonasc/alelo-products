@@ -12,6 +12,8 @@ import SwiftUI
     @Published var products: [Product] = []
     @Published var isLoading = false
     @Published var alertInfo: AlertInfo?
+    @Published var selectedProduct: Product?
+    @Published var isShowingDetail = false
  
     func getProducts() {
         isLoading = true

@@ -57,14 +57,14 @@ struct MockData {
     
     
     
-    static let sizeOne    = Size(available: false,
+    static let sizeOne    = Size(available: true,
                                     size: "PP",
                                     sku: "5807_343_0_PP")
     static let sizeTwo    = Size(available: false,
-                                    size: "PP",
+                                    size: "P",
                                     sku: "5807_343_0_PP")
-    static let sizeThree  = Size(available: false,
-                                      size: "PP",
+    static let sizeThree  = Size(available: true,
+                                      size: "M",
                                       sku: "5807_343_0_PP")
     
     static let sizeItems  = [sizeOne, sizeTwo, sizeThree]
