@@ -69,7 +69,10 @@ struct MockData {
     
     static let sizeItems  = [sizeOne, sizeTwo, sizeThree]
     
-    static let cartItemOne = CartItem(product: productOne, 
+    static let cartItemOne = CartItem(product: productOne,
+                                      qtd: 1,
+                                      size: sizeOne)
+    static let cartItemTwo = CartItem(product: productThree,
                                       qtd: 1,
                                       size: sizeOne)
     
