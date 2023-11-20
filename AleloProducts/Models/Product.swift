@@ -36,6 +36,10 @@ struct Product: Codable, Identifiable {
         case installments, image, sizes
     }
     
+    var availableSizes: [Size] {
+        sizes?.filter({$0.available == true}) ?? []
+    }
+    
     var salePrice: Double {
         
         let price = self.actualPrice?.replacingOccurrences(of: "R$", with: "")

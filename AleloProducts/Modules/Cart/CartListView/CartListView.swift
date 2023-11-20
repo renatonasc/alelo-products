@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct CartListView: View {
-    @EnvironmentObject var cart: Cart
+    
+    @EnvironmentObject  var cart: Cart
+    
+
     var body: some View {
-        
         
         NavigationView {
             ZStack {
                 VStack {
                     List {
-                        ForEach(cart.items, id: \.product.id) { cartItem in
-                            ProductListViewCell(product: cartItem.product)
+                        ForEach(cart.items) { item in
+                            CartListViewCell(item: self.$cart.items[self.index(for: item)], qtd: self.$cart.items[self.index(for: item)].qtd)
                         }
                         .onDelete(perform: cart.deleteItems)
                     }
@@ -37,6 +39,13 @@ struct CartListView: View {
             }
             .navigationTitle("Cart")
         }
+    }
+    
+    func index(for item: CartItem) -> Int {
+        if let index = cart.items.firstIndex(where: { $0.id == item.id }) {
+            return index
+        }
+        return 0
     }
 }
 

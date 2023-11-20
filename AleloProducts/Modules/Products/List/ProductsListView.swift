@@ -22,6 +22,19 @@ struct ProductsListView: View {
                         }
                 }
                 .navigationTitle("Products")
+                .toolbar {
+                    Button{
+                        viewModel.onlyOnSale.toggle()
+                    } label: {
+                        Text("On Sale")
+                            .padding(1)
+                            .background(viewModel.onlyOnSale ? Color.accentColor : Color.white)
+                            .foregroundColor(viewModel.onlyOnSale ? Color.white : Color.accentColor)
+                            .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                    }
+                    
+                
+                }
                 .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail)
             }

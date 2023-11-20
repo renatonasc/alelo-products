@@ -9,18 +9,23 @@ import SwiftUI
 
 @MainActor final class ProductListViewModel: ObservableObject {
     
-    @Published var products: [Product] = []
+    @Published var allProducts: [Product] = []
     @Published var isLoading = false
     @Published var alertInfo: AlertInfo?
     @Published var selectedProduct: Product?
     @Published var isShowingDetail = false
+    @Published var onlyOnSale = false
  
+    var products: [Product] {
+        onlyOnSale ? allProducts.filter({$0.onSale == true}) : allProducts
+    }
+    
     func getProducts() {
         isLoading = true
         
         Task {
             do {
-                products = try await Repository.Products.listAll()
+                allProducts = try await Repository.Products.listAll()
                 isLoading = false
             } catch {
                 print(error.localizedDescription)

@@ -9,7 +9,7 @@ import Foundation
 
 final class Repository {
     
-    static let shared = Repository(service: Service())
+    static let shared = Repository(service: ServiceMocked())
     
     let service: ServiceProtocol
     

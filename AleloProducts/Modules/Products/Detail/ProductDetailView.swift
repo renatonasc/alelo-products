@@ -60,7 +60,7 @@ struct ProductDetailView: View {
                 }
                 
                 HStack(spacing: 20) {
-                    ForEach(product.sizes?.filter({$0.available == true}) ?? [], id: \.size ){ size in
+                    ForEach(product.availableSizes, id: \.size ){ size in
                         Button {
                             selectedSize = size.size ?? "-"
                         } label: {
@@ -74,8 +74,10 @@ struct ProductDetailView: View {
             Spacer()
             
             Button {
-                cart.add(CartItem(product: product, size: selectedSize, qtd: 1))
-                isShowingDetail = false
+                if let size = product.sizes?.first(where: {$0.size == selectedSize}) {
+                    cart.add(CartItem(product: product, qtd: 1, size: size))
+                    isShowingDetail = false
+                }
             } label: {
                 Text("Add to Cart")
             }

@@ -16,26 +16,43 @@ final class Cart: ObservableObject {
         items.reduce(0) { $0 + $1.totalPrice }
     }
     
-    
     func add(_ cartItem: CartItem) {
-        items.append(cartItem)
+        if let index = items.firstIndex(where: { $0.size.size == cartItem.size.size && $0.product.name == cartItem.product.name}) {
+            items[index].qtd += 1
+        } else {
+            items.append(cartItem)
+        }
     }
-    
     
     func deleteItems(at offsets: IndexSet) {
         items.remove(atOffsets: offsets)
     }
+    
 }
 
 
-struct CartItem: Codable {
+final class  CartItem: ObservableObject, Identifiable {
     
-    let product: Product
-    let size: String
-    var qtd:Double
+    let id = UUID()
+    var product: Product
+    var size: Size
+    @Published var qtd:Int {
+        didSet {
+            if (qtd == 0 ) {
+                qtd = 1
+            }
+        }
+    }
+    
+    init(product: Product, qtd: Int, size: Size) {
+        self.product = product
+        self.qtd = qtd
+        self.size = size
+    }
     
     var totalPrice: Double {
-        qtd * product.salePrice
+        Double(qtd) * product.salePrice
     }
+    
     
 }
