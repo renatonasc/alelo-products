@@ -9,9 +9,8 @@ import SwiftUI
 
 struct CartListView: View {
     
-    @EnvironmentObject  var cart: Cart
+    @EnvironmentObject var cart: Cart
     
-
     var body: some View {
         
         NavigationView {
@@ -19,7 +18,7 @@ struct CartListView: View {
                 VStack {
                     List {
                         ForEach(cart.items) { item in
-                            CartListViewCell(item: self.$cart.items[self.index(for: item)], qtd: self.$cart.items[self.index(for: item)].qtd)
+                            CartListViewCell(item: self.$cart.items[self.index(for: item)])
                         }
                         .onDelete(perform: cart.deleteItems)
                     }
@@ -34,7 +33,7 @@ struct CartListView: View {
                 }
                 
                 if cart.items.isEmpty {
-                    Text("Empty")
+                    EmptyView(imageName: "cart", message: "Empty cart :(")
                 }
             }
             .navigationTitle("Cart")

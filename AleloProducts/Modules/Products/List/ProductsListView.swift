@@ -14,29 +14,34 @@ struct ProductsListView: View {
     var body: some View {
         ZStack {
             NavigationView {
-                List(viewModel.products) { product in
-                    ProductListViewCell(product: product)
-                        .onTapGesture {
-                            viewModel.selectedProduct = product
-                            viewModel.isShowingDetail = true
-                        }
-                }
-                .navigationTitle("Products")
-                .toolbar {
-                    Button{
-                        viewModel.onlyOnSale.toggle()
-                    } label: {
-                        Text("On Sale")
-                            .padding(1)
-                            .background(viewModel.onlyOnSale ? Color.accentColor : Color.white)
-                            .foregroundColor(viewModel.onlyOnSale ? Color.white : Color.accentColor)
-                            .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                ZStack {
+                    List(viewModel.products) { product in
+                        ProductListViewCell(product: product)
+                            .onTapGesture {
+                                viewModel.selectedProduct = product
+                                viewModel.isShowingDetail = true
+                            }
                     }
+                    .navigationTitle("Products")
+                    .toolbar {
+                        Button{
+                            viewModel.onlyOnSale.toggle()
+                        } label: {
+                            Text("On Sale")
+                                .padding(1)
+                                .background(viewModel.onlyOnSale ? Color.accentColor : Color.white)
+                                .foregroundColor(viewModel.onlyOnSale ? Color.white : Color.accentColor)
+                                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                        }
+                        
+                    }
+                    .listStyle(.plain)
+                    .disabled(viewModel.isShowingDetail)
                     
-                
+                    if viewModel.products.isEmpty {
+                        EmptyView(imageName: "storefront", message: "No products now :(")
+                    }
                 }
-                .listStyle(.plain)
-                .disabled(viewModel.isShowingDetail)
             }
             .task {
                 viewModel.getProducts()

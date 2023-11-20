@@ -9,9 +9,7 @@ import SwiftUI
 
 struct CartListViewCell: View {
     
-    
     @Binding var item: CartItem
-    @Binding var qtd: Int
     
     var body: some View {
         HStack {
@@ -74,7 +72,7 @@ struct CartListViewCell: View {
                                 .frame(width: 44, height: 44)
                                 .foregroundColor(.black)
                         }.onTapGesture {
-                            qtd -= 1
+                            item.decrement()
                         }
                         
                         Text("\(Int(item.qtd))")
@@ -94,7 +92,7 @@ struct CartListViewCell: View {
                                 .frame(width: 44, height: 44)
                                 .foregroundColor(.black)
                         }.onTapGesture {
-                            qtd += 1
+                            item.increment()
                         }
     
                     }
@@ -107,5 +105,5 @@ struct CartListViewCell: View {
 }
 
 #Preview {
-    CartListViewCell(item: .constant(MockData.cartItemOne), qtd: .constant(0))
+    CartListViewCell(item: .constant(MockData.cartItemOne))
 }
