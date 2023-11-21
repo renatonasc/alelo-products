@@ -22,7 +22,7 @@ This repository contains an iOS application developed for the Alelo iOS Develope
 
 ## How to Run the Project
 
-1. Clone this repository: `git clone https://github.com/renatonasc/AleloProducts.git`
+1. Clone this repository: `git clone https://github.com/renatonasc/alelo-products.git`
 2. Open the project in Xcode.
 3. Ensure you are using a compatible version of Xcode, and that all dependencies are installed.
 4. Run the app on an iOS simulator or device.
